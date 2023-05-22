@@ -13,6 +13,7 @@ dist-ssr
 *.local
 .env
 ajuda.txt
+ajuda.css
 
 # Editor directories and files
 .vscode/*
