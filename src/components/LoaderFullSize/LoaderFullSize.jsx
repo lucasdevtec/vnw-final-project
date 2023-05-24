@@ -1,6 +1,6 @@
 import { Flex, Text, Spinner } from "@chakra-ui/react";
 
-export function LoaderFullSize() {
+export default function LoaderFullSize() {
   return (
     <>
       <Flex
