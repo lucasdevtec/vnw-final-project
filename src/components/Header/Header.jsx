@@ -1,5 +1,5 @@
 import img_da_header from "../../assets/headerImg.svg";
-import lupa from "../../assets/lupa.svg";
+import lupa from "../../assets/icons8-lupa.svg";
 import { HeaderPage, Div1, Div2, A1 } from "./style";
 
 export default function Header() {
@@ -17,7 +17,7 @@ export default function Header() {
         </ul>
       </nav>
       <Div1>
-        <p>{lupa}</p>
+        <img src={lupa} />
         <Div2>
           <a href="#filmes">Login</a>
           <a href="#series">Filtro</a>

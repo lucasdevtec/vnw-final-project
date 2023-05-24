@@ -39,6 +39,11 @@ export const Div1 = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 250px;
+
+  img {
+    width: 20px;
+    color: white;
+  }
 `;
 
 export const Div2 = styled.div`
