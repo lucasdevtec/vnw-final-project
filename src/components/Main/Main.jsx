@@ -1,11 +1,13 @@
+import MainCarrousel from "../MainCarrousel/MainCarrousel";
 import MainEmAlta from "../MainEmAlta/MainEmAlta";
 import NavGeneros from "../NavGeneros/NavGeneros";
 
 export default function Main() {
   return (
     <main>
-      <MainEmAlta />
       <NavGeneros />
+      <MainCarrousel />
+      <MainEmAlta />
     </main>
   );
 }
