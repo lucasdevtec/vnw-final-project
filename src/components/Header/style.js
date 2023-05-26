@@ -8,7 +8,7 @@ export const HeaderPage = styled.header`
   justify-content: space-between;
   align-items: center;
   background: rgba(0, 0, 0, 0.4);
-  padding: 10px 30px;
+  padding: 10px 100px;
 
   img {
     height: 60px;
