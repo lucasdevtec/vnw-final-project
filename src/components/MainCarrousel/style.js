@@ -12,18 +12,10 @@ export const Conteiner = styled.section`
   }
 `;
 
-export const ConteinerGrid = styled.div`
-  display: grid;
-  margin-top: 10px;
-  justify-items: center;
-  align-items: center;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-`;
+export const ConteinerItemImg = styled.div``;
 
 export const ConteinerItem = styled.div`
   width: 170px;
   height: 350px;
   color: #f6f6f6;
 `;
-
-export const ConteinerItemImg = styled.div``;
