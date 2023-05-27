@@ -10,7 +10,6 @@ export default function Main() {
       <NavGeneros />
       <MainCarrousel />
       <MainEmAlta />
-      <NavGeneros />
     </main>
   );
 }
