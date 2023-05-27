@@ -20,7 +20,7 @@ export default function MainCarrousel() {
         /* itemPosition={consts.END} */
       >
         {movies.length > 0 &&
-          movies.slice(0, 10).map((data) => {
+          movies.slice(10, 20).map((data) => {
             return (
               <ConteinerItem onClick={console.log("click")} key={data.id}>
                 <ConteinerItemImg>
